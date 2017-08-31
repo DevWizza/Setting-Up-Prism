@@ -14,13 +14,14 @@ namespace PrismSetup
         {
             InitializeComponent();
             
-            NavigationService.NavigateAsync($"{nameof(HiPrismPage)}");
+            NavigationService.NavigateAsync($"{nameof(Section1Page)}");
         }
 
         protected override void RegisterTypes()
         {
             Container.RegisterTypeForNavigation<MainPage>();
-            Container.RegisterTypeForNavigation<HiPrismPage>();
+            Container.RegisterTypeForNavigation<Section1Page>();
+            Container.RegisterTypeForNavigation<Section2Page>();
         }
     }
 }

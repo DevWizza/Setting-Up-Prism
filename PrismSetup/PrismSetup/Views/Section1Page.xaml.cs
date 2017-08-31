@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace PrismSetup.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HiPrismPage : ContentPage
+    public partial class Section1Page : ContentPage
     {
-        public HiPrismPage()
+        public Section1Page()
         {
             InitializeComponent();
         }
